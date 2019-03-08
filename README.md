@@ -82,3 +82,4 @@ $ npm run build
 1. vuex、mockjs、ui 框架引入
 2. 划分生产及开发环境的 config 相关配置
 3. webpack 进一步的打包配置
+4. axios 添加 header 内容及拦截器的封装
