@@ -38,6 +38,7 @@ $ npm run build
 │  ├── assets  静态资源文件夹
 │  ├── components  组件文件夹
 │  ├── lib  工具包文件夹
+│  │  └── axios.js  请求封装拦截
 │  │  └── util.js  常用工具函数文件
 │  ├── router  路由文件夹
 │  │  └── index.js  主路由初始化
@@ -58,8 +59,10 @@ $ npm run build
         "axios": "^0.18.0", // ajax请求文件
         "css-loader": "^2.1.0", // css样式写入
         "normalize.css": "^8.0.1",  // 页面css初始化
+        "qs": "^6.6.0",    // 处理option请求后台不处理
         "style-loader": "^0.23.1",  // style样式写入
         "vue": "^2.6.6",    // 基础开发框架
+        "vant": "^1.6.9",   // UI框架
         "vue-router": "^3.0.1"  //  路由文件
     },
     "devDependencies": {
@@ -79,7 +82,6 @@ $ npm run build
 
 模板暂未增加功能
 
-1. vuex、mockjs、ui 框架引入
+1. vuex、mockjs
 2. 划分生产及开发环境的 config 相关配置
 3. webpack 进一步的打包配置
-4. axios 添加 header 内容及拦截器的封装

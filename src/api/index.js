@@ -1,7 +1,3 @@
-import axios from 'axios'
-const baseURL = ''
-
-const GET = (url, params) => axios.get(`${baseURL}${url}`, { params })
-const POST = (url, params) => axios.get(`${baseURL}${url}`, { params })
+import { POST, GET } from '@/lib/axios'
 
 export default {}
