@@ -74,7 +74,8 @@ $ npm run build
         "eslint-plugin-vue": "^5.0.0",
         "node-sass": "^4.9.0",  // sass编译工具
         "sass-loader": "^7.1.0",    // sass样式写入
-        "vue-template-compiler": "^2.5.21"  // 模板预编译插件
+        "vue-template-compiler": "^2.5.21",  // 模板预编译插件
+        "babel-plugin-import": "^1.11.0" // 用于引入vant组件自动加载其样式文件
     }
 ```
 
